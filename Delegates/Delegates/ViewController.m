@@ -11,6 +11,8 @@
 #import "OneViewController.h"
 #import "TwoViewController.h"
 
+#import "Animal.h"
+
 @interface ViewController ()
 
 @end
@@ -19,10 +21,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self delegatesDemo];
+    // 多播代理
+//    [self delegatesDemo];
+//    隐式代理  不用再遵守协议了
+    [self delegateDemo];
 
 }
 
+-(void)delegateDemo{
+    
+    Animal *ani = [[Animal alloc]init];
+    ani.name = @"小白";
+    ani.delegate = self;
+    [ani run];
+    
+}
+
+-(void)eat{
+    
+    NSLog(@"跑完了，准备吃饭");
+}
 
 -(void)delegatesDemo{
     

@@ -16,6 +16,7 @@
 		640C41E61DD16BDD00D0D197 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C41E51DD16BDD00D0D197 /* Person.m */; };
 		640C41E91DD173AA00D0D197 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C41E81DD173AA00D0D197 /* OneViewController.m */; };
 		640C41EC1DD173B500D0D197 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C41EB1DD173B500D0D197 /* TwoViewController.m */; };
+		640C41EF1DD176C500D0D197 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C41EE1DD176C500D0D197 /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		640C41E81DD173AA00D0D197 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		640C41EA1DD173B500D0D197 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
 		640C41EB1DD173B500D0D197 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		640C41ED1DD176C500D0D197 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		640C41EE1DD176C500D0D197 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				640C41E81DD173AA00D0D197 /* OneViewController.m */,
 				640C41E41DD16BDD00D0D197 /* Person.h */,
 				640C41E51DD16BDD00D0D197 /* Person.m */,
+				640C41ED1DD176C500D0D197 /* Animal.h */,
+				640C41EE1DD176C500D0D197 /* Animal.m */,
 				640C41D61DD16BB900D0D197 /* Main.storyboard */,
 				640C41D91DD16BB900D0D197 /* Assets.xcassets */,
 				640C41DB1DD16BB900D0D197 /* LaunchScreen.storyboard */,
@@ -169,6 +174,7 @@
 				640C41E91DD173AA00D0D197 /* OneViewController.m in Sources */,
 				640C41D21DD16BB900D0D197 /* AppDelegate.m in Sources */,
 				640C41EC1DD173B500D0D197 /* TwoViewController.m in Sources */,
+				640C41EF1DD176C500D0D197 /* Animal.m in Sources */,
 				640C41E61DD16BDD00D0D197 /* Person.m in Sources */,
 				640C41CF1DD16BB900D0D197 /* main.m in Sources */,
 			);
@@ -325,6 +331,7 @@
 				640C41E31DD16BB900D0D197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
